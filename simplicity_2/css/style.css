@@ -7,12 +7,23 @@
     content: "";
     display: block;
     clear: both;
+}                   
+@media only screen and (max-width: 1920px) {
+    .main_wrapper{
+        margin: 0 auto;
+        width: 55%;
+        font-size:12px;
+    }
 }
-.main_wrapper{
-    margin: 0 auto;
-    width: 55%;
-    font-size:12px;
+
+@media only screen and (max-width: 1370px) {
+    .main_wrapper{
+        margin: 0 auto;
+        width: 70%;
+        font-size:11px;
+    }
 }
+
 
 h1,h2,h3,h4,p{
     margin:0px 0px 0px 0px;
@@ -68,6 +79,19 @@ h1,h2,h3,h4,p{
     width: 436px;
 }
 
+@media only screen and (max-width: 1370px) {
+    .header_bottom_contents{
+        float:right;
+        padding:83px 16px 30px 0px;
+        width: 388px;
+    }
+
+    .header_bottom_contents h1{
+        font-size:37px !important;
+        color:white;
+    }
+}
+
 .header_bottom_contents h1{
     font-size:42px;
     color:white;
@@ -88,6 +112,21 @@ h1,h2,h3,h4,p{
 
 .header_bottom_contents p:last-child span{
     margin:0px 60px 10px 0px;
+}
+
+@media only screen and (max-width: 1370px) {
+    .header_bottom_contents p:last-child{
+        font-size:14px;
+        color:#305f66;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        border:1px solid #aecad0;
+        padding:20px 15px 20px 15px;
+    }
+    
+    .header_bottom_contents p:last-child span{
+        margin:0px 60px 10px 0px;
+    }
 }
 /**HEADER_BOTTOM**/
 /**HEADER**/
@@ -110,6 +149,16 @@ h1,h2,h3,h4,p{
     width: 210px;  
 }
 
+@media only screen and (max-width: 1370px) {
+    .content_top .row .col{
+        /* border-top:1px solid #cbdde1; */
+        color:#666666;
+        float:left;
+        margin:  0px 45px 0px 0px;
+        width: 180px;  
+    }
+}
+
 .content_top .row .col:last-child{
     margin: 0px 0px 0px 0px;
 }
@@ -128,6 +177,14 @@ h1,h2,h3,h4,p{
     padding: 10px 0px 10px 0px;
     border-top:1px solid #cbdde1;
     width: 215px;
+}
+
+@media only screen and (max-width: 1370px) {
+    .content .row:last-child .col{
+        padding: 10px 0px 10px 0px;
+        border-top:1px solid #cbdde1;
+        width: 190px;
+    }
 }
 
 .content .row:last-child .col img{
@@ -210,6 +267,14 @@ h1,h2,h3,h4,p{
     float:left;
     width: 28%;
     margin: 0px 80px 0px 0px;
+}
+
+@media only screen and (max-width: 1370px) {
+    .footer_wrapper ul li{
+        float:left;
+        width: 27%;
+        margin: 0px 85px 0px 0px;
+    }
 }
 
 .footer_wrapper ul li div{
