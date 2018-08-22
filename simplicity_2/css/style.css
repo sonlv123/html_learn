@@ -131,10 +131,9 @@ h1,h2,h3,h4,p{
 }
 
 .content .row:last-child .col img{
-    padding:1px 0px 1px 0px;
+    padding:2px 2px 2px 1px;
     width: 100%;
-    border-left: 1px solid #9bc3cc;
-    border-top: 1px solid #9bc3cc;
+    border: 1px solid #9bc3cc;
 }
 /**CONTENT TOP**/
 /**CONTENT BOTTOM**/
