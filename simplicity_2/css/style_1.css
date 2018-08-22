@@ -1,0 +1,232 @@
+.main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/**HEADER**/
+/**HEADER_TOP**/
+.header_top{
+    font-size:12px;
+    background-color:#96b7be; 
+}
+
+.header_top div{
+    margin: 0 auto;
+    width: 55%;
+    padding:32px 0px 32px 0px;
+}
+
+.header_top div ul{
+    float: right;
+}
+
+.header_top div ul li{
+    float: left;
+    margin: 0px 36px 0px 0px;
+    border-left: 1px solid white;
+    padding:0px 0px 0px 15px;
+}
+
+.header_top div ul li span{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.header_top div ul li p{
+    width: 120px;
+}
+/**HEADER_TOP**/
+/**HEADER_BOTTOM**/
+.header_bottom{
+    font-size:12px;
+    background-color:#cbdde1; 
+}
+
+.header_bottom div{
+    margin: 0 auto;
+    width: 55%;
+    padding:40px 0px 30px 0px;
+}
+
+.header_bottom div div{
+    float: right;
+    padding:83px 16px 30px 0px;
+    width: 436px;
+}
+
+.header_bottom div div h1{
+    font-size:42px;
+    color:white;
+}
+
+.header_bottom div div p:last-child{
+    font-size:20px;
+    color:#305f66;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border:1px solid #aecad0;
+    padding:20px 15px 20px 15px;
+}
+
+.header_bottom div div p:last-child span{
+    margin:0px 60px 10px 0px;
+}
+
+/**HEADER_BOTTOM**/
+/**HEADER**/
+
+/**CONTENT**/
+/**CONTENT TOP**/
+.content{
+    margin: 10px auto;
+    width: 55%;
+    font-size: 12px;
+}
+
+.content .row{
+    margin:  10px 0px 10px 0px;
+}
+
+.content .row .col{
+    float:left;
+    width: 210px;  
+    margin:  0px 45px 0px 0px;
+    color:#666666;
+}
+
+.content .row .col:last-child{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.content .row .col h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.content .row:last-child{
+    border-bottom:1px solid #cbdde1;
+    padding:10px 0px 10px 0px;
+}
+
+.content .row:last-child .col{
+    border-top:1px solid #cbdde1;
+    padding:10px 0px 10px 0px;
+    width: 215px;  
+}
+
+.content .row .col img{
+    width: 100%;  
+}
+/**CONTENT TOP**/
+/**CONTENT BOTTOM**/
+.content_bottom{
+    color:#666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.content_bottom h3{
+    font-size: 18px;
+}
+
+.content_bottom div p{
+    margin: 0px 0px 10px 0px;
+}
+
+.content_bottom_left{
+    float: left;
+    width: 60%;
+}
+.content_bottom_right{
+    float: right;
+    width: 30%;
+}
+.content_bottom_right div img{
+    float:left;
+    margin: 0px 20px 0px 0px;
+}
+.content_bottom_right div h3{
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+    
+}
+.content_bottom_right div a{
+    display: block;
+    text-align: right;
+    color: black;
+}
+/**CONTENT BOTTOM**/
+/**CONTENT**/
+/***FOOTER****/
+.footer>div{
+    background-color:#cbdde1; 
+}
+
+.footer_wrapper_top>div{
+    margin: 0 auto;
+    width: 55%;
+    font-size: 12px;
+}
+
+.footer_wrapper_top div ul{
+    margin: 20px 0px 0px 0px;
+}
+.footer_wrapper_top div ul li{
+    float:left;
+    margin: 20px 80px 10px 0px;
+    width: 28%;
+}
+
+.footer_wrapper_top div ul li:last-child{
+    margin: 20px 0px 0px 0px;
+    /* width: 30%; */
+}
+.footer_title{
+    color:#666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #cbdd;
+    padding:0px 0px 10px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.footer_info div{
+    padding:0px 0px 10px 0px;
+}
+
+.go{
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+.go input{
+    margin:0px 50px 0px 0px;
+}
+
+.go button{
+    background-color: white;
+}
+
+.author{
+    padding:10px 0px 10px 0px;
+    background-color:#054451;
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_bottom{
+    margin: 0 auto;
+    width: 55%;
+    font-size: 12px;
+}
+.footer_bottom .footer_bottom_rtitle{
+    float: right;
+}
+
+/***FOOTER****/
